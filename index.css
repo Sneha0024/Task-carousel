@@ -1,72 +1,72 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    height: 100vh;
-    width: 100%;
-    background-color: #262626;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #262626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.carousel{
-    height: 300px;
-    width: 96%;
-    position: relative;
+.carousel {
+  height: 300px;
+  width: 96%;
+  position: relative;
 }
 .carousel .switchLeft,
-.carousel .switchRight{
-    color: white;
-    font-weight: bold;
-    height: 100%;
-    width: 40px;
-    line-height: 300px;
-    text-align: center;
-    font-size: 36px;
-    background-color: transparent;
-    font-family: sans-serif;
-    top: 0;
-    font-weight: bold;
-    z-index: 3;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, .15);
-  
-    backdrop-filter: blur(2px);
+.carousel .switchRight {
+  color: white;
+  font-weight: bold;
+  height: 100%;
+  width: 40px;
+  line-height: 300px;
+  text-align: center;
+  font-size: 36px;
+  background-color: transparent;
+  font-family: sans-serif;
+  top: 0;
+  font-weight: bold;
+  z-index: 3;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(2px);
 }
-.carousel .switchLeft{
-    position: absolute;
-    left: 0px;
+.carousel .switchLeft {
+  position: absolute;
+  left: 0px;
 }
-.carousel .switchRight{
-    position: absolute;
-    right: 0px;
+.carousel .switchRight {
+  position: absolute;
+  right: 0px;
 }
-.carouselbox{
-    height: 300px;
-    width: auto;
-    overflow: scroll;
-    white-space: nowrap;
-    display: inline-block;
-    text-align: center;
-    padding-bottom:10px !important;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
+.carouselbox {
+  height: 300px;
+  width: auto;
+  overflow: scroll;
+  white-space: nowrap;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 10px !important;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
 }
-.carouselbox img{
-    min-width: 186px;
-    max-width: 186px;
-    height: 300px;
-    background-size: cover;
-    background-color: skyblue;
-    margin: 5px 5px;
-    cursor: pointer;
-    transition: 0.7s ease;
-    z-index: 2;
+.carouselbox img {
+  min-width: 186px;
+  max-width: 186px;
+  height: 300px;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(2px);
+  margin: 5px 5px;
+  cursor: pointer;
+  transition: 0.7s ease;
+  z-index: 2;
 }
-.carouselbox img:hover{
-    transform: scale(1.4);
-    z-index: 5;
+.carouselbox img:hover {
+  transform: scale(1.4);
+  z-index: 5;
 }
